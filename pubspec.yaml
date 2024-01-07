@@ -1,0 +1,83 @@
+name: maaredh
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # http package for the HTTP requests handling.
+  http: ^0.13.5
+  # http interceptor package to intercept all the HTTP requests.
+  http_interceptor: ^1.0.2
+  # app state manager.
+  flutter_bloc: ^8.1.2
+  # compare objects in app.
+  equatable: ^2.0.5
+  # enable to companion different types in app.
+  dartz: ^0.10.1
+  # get network state in app.
+  internet_connection_checker: ^1.0.0+1
+  # storing app data and caches.
+  shared_preferences: ^2.0.18
+  # manage permissions requesting in the app.
+  permission_handler: ^10.2.0
+  # to launch any URL and also make phone-calls and emailing.
+  url_launcher: ^6.1.10
+  # to display alerts in the app.
+  flash: ^2.0.5+1
+  # dependency injection implementation in the app.
+  get_it: ^7.2.0
+  flutter_screenutil: ^5.7.0
+  firebase_messaging: ^14.3.0
+  firebase_core: ^2.8.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+#  fonts:
+#    - family: montserrat
+#      fonts:
+#        - asset: assets/fonts/montserrat/Montserrat-Thin.otf
+#          weight: 100
+#        - asset: assets/fonts/montserrat/Montserrat-Thin.otf
+#          weight: 200
+#        - asset: assets/fonts/montserrat/Montserrat-ExtraLight.otf
+#          weight: 300
+#        - asset: assets/fonts/montserrat/Montserrat-Light.otf
+#          weight: 400
+#        - asset: assets/fonts/montserrat/Montserrat-Regular.otf
+#          weight: 500
+#        - asset: assets/fonts/montserrat/Montserrat-Medium.otf
+#          weight: 600
+#        - asset: assets/fonts/montserrat/Montserrat-SemiBold.otf
+#          weight: 700
+#        - asset: assets/fonts/montserrat/Montserrat-Bold.otf
+#          weight: 800
+#        - asset: assets/fonts/montserrat/Montserrat-ExtraBold.otf
+#          weight: 900
+
+  assets:
+    - assets/
+    - assets/.env
+    - assets/.env.dev
+    - assets/lang/en.json
+    - assets/lang/ar.json
+    - assets/fonts/
+    - assets/images/
